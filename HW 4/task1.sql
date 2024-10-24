@@ -6,7 +6,7 @@ DROP TABLE IF EXISTS petPet, petEvent;
 
 CREATE TABLE petPet (
   petname VARCHAR(20) PRIMARY KEY,
-  owners VARCHAR (45),
+  owner VARCHAR (45),
   species VARCHAR(45) ,
   gender ENUM('M' , 'F'),
   birth DATE,
